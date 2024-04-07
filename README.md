@@ -1,6 +1,6 @@
 # NotesFrame
 
-![notesframe-high-resolution-logo](https://github.com/heetvadiya/NotesFrame/assets/107194145/6e3265af-449d-4c98-8975-2dd9dfb283d6)
+<img src="https://github.com/heetvadiya/NotesFrame/assets/107194145/6e3265af-449d-4c98-8975-2dd9dfb283d6" alt="NotesFrame Logo" width="200">
 
 NotesFrame is an AI/ML based video to text notes maker that allows users to effortlessly convert videos into text-based notes. The system utilizes advanced algorithms to extract key frames from the video and then generates text summaries from those frames, creating comprehensive notes for the video content.
 
