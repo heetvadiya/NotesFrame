@@ -2,7 +2,7 @@
 
 <img src="https://github.com/heetvadiya/NotesFrame/assets/107194145/6e3265af-449d-4c98-8975-2dd9dfb283d6" alt="NotesFrame Logo" width="200">
 
-NotesFrame is an AI/ML based video to text notes maker that allows users to effortlessly convert videos into text-based notes. The system utilizes advanced algorithms to extract key frames from the video and then generates text summaries from those frames, creating comprehensive notes for the video content.
+NotesFrame is an AI/ML based video to text notes maker that allows users to effortlessly convert videos into text-based notes. The system utilizes advanced algorithms to extract key frames from the video and then generates text summaries from those frames, creating comprehensive notes for the video content in the pdf format.
 
 ## Features
 
@@ -20,7 +20,8 @@ To get started with NotesFrame, follow these steps:
 2. Install dependencies: `pip install -r requirements.txt`
 3. Set up the database and configure authentication.
 4. Run the application: `python main.py`
-
+5. For frontend: `yarn run dev/ npm run dev`
+   
 ## Example:
 - Input Video: video1.mp4
 - Output Keyframes: final_keyframes
