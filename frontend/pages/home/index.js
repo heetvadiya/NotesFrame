@@ -28,7 +28,7 @@ export default function Page() {
     return (
         <div>
             <Head>
-                <title>ML Video to PDF</title>
+                <title>NotesFrame</title>
                 <meta name="description" content="Convert your video to PDF notes with machine learning." />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
