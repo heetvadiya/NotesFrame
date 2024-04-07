@@ -35,7 +35,7 @@ To get started with NotesFrame, follow these steps:
 4. Download the generated notes in PDF format.
 5. Access and download your previous notes from the dashboard if you're a logged-in user.
 
-## Technologies/algorithm Used
+## Technologies/Algorithms Used
 
 - Frontend: Next.js
 - Backend: 
