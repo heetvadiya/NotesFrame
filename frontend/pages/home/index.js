@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { Loader2 } from "lucide-react";
 import Head from "next/head";
+import { useRouter } from "next/router";
 import { useState } from "react";
 import { FileUploader } from "react-drag-drop-files";
 
@@ -11,6 +12,7 @@ const fileTypes = ["JPG", "PNG", "GIF"];
 export default function Page() {
     const [file, setFile] = useState();
     const [loading, setLoading] = useState(false);
+    const router = useRouter();
 
     const handleFileChange = (file) => {
         setFile(file);
@@ -19,10 +21,9 @@ export default function Page() {
     const handleUpload = async () => {
         setLoading(true);
         console.log("hello");
-        //api
-        setTimeout(() => {
-            setLoading(false);
-        }, 1000);
+        //api call to upload file
+        setLoading(false);
+        router.push('/home/pdf')
     }
 
     return (
@@ -33,7 +34,7 @@ export default function Page() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <main className="bg-gray-100 min-h-screen flex flex-col justify-center items-center">
+            <main className="bg-gray-100 min-h-[80vh] flex flex-col justify-center items-center">
                 <h1 className="text-4xl font-bold text-center mb-4">Convert Video to PDF Notes</h1>
                 <p className="text-lg text-gray-700 text-center mb-8">Upload your video and get important notes extracted into a PDF.</p>
                 <FileUploader handleChange={handleFileChange} name="file" types={fileTypes} />

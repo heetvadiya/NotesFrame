@@ -5,6 +5,9 @@ export default function Document() {
     <Html lang="en">
       <Head />
       <body>
+        <div className="bg-gray-100">
+          <img src="/2.png" alt="Notesframe" className="w-40 ml-9" />
+        </div>
         <Main />
         <NextScript />
       </body>
